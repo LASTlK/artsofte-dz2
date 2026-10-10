@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=homework
 Group=homework
-ExecStart=/opt/linux-devops-homework/app.py
+ExecStart=/opt/linux-devops-homework/app/server.py
 Restart=on-failure
 RestartSec=2
 
